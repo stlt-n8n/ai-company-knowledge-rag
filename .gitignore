@@ -1,0 +1,17 @@
+# Local environment and n8n runtime files
+.env
+.env.*
+!.env.example
+
+# OS and editor files
+.DS_Store
+.idea/
+.vscode/
+
+# Dependency and log files
+node_modules/
+*.log
+
+# n8n local data and exports that may contain credentials
+.n8n/
+credentials*.json

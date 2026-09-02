@@ -1,5 +1,7 @@
 # AI Company Knowledge Assistant - RAG
 
+![AI Company Knowledge Assistant - RAG banner](images/banner.png)
+
 A RAG-based company knowledge assistant built with n8n. It ingests demo company policies into a Supabase vector store, retrieves relevant context with semantic search, and generates grounded answers with OpenAI. When the answer is not present in the knowledge base, it explicitly says so instead of inventing a policy.
 
 ## Business Problem
